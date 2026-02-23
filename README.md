@@ -41,3 +41,5 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_central.py \
     --test_le experiments/rationale_declare-lab-flan-alpaca-large_vit_QCM-E_lr5e-05_bs8_op512_ep50/predictions_ans_test.json
 
 ```
+
+The complete code will be uploaded after the paper is published.
