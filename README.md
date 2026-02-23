@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
     --output_dir experiments
 
 # answer inference
-CUDA_VISIBLE_DEVICES=0,1,2,3 python main_central.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
     --data_root data/ScienceQA/data \
     --caption_file data/instruct_captions.json \
     --model declare-lab/flan-alpaca-large \
